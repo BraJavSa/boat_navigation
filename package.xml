@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>boat_navigation</name>
+  <version>0.0.1</version>
+  <description>Bringup y navegación del bote: launches de cámara y otros nodos.</description>
+  <maintainer email="brayanjavsa@gmail.com">Brayan Saldarriaga</maintainer>
+  <license>MIT</license>
+
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>usb_cam</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
